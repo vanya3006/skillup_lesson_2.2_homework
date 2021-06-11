@@ -1,0 +1,6 @@
+meters = float(input("Введите количество метров: "))
+kilometers = str(meters/1000)
+millimeters =str(meters*1000)
+meters = str(meters)
+print ("В " + meters + " метрах - " + kilometers + " километров.")
+print ("В " + meters + " метрах - " + millimeters +" миллиметров")
